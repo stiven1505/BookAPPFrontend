@@ -2,8 +2,8 @@ import axios from "axios";
 
 //Instancia para el back
 const booksApi = axios.create({
-  // baseURL: "http://127.0.0.1:8000/books/api/v1/books/",//Desarrollo
-    baseURL: "https://bookappbackend-31ic.onrender.com/books/api/v1/"
+  //baseURL: "http://127.0.0.1:8000/books/api/v1/books/",//Desarrollo
+    baseURL: "https://bookappbackend-31ic.onrender.com/books/api/v1/books/"
 });
 //Solicitudes endpoint de la API
 
